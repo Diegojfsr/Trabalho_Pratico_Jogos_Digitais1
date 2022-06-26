@@ -1,0 +1,1642 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "7191b8f2-ed96-415d-9172-e52bf3b2bc9a",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "TreasureHunters",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites2/Terrain/edit/Terrain1 (32x32).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites2\\Terrain\\edit\\Terrain1 (32x32).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Terrain1 (32x32).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Terrain1 (32x32).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/Bomb Guy_Fall_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\Bomb Guy_Fall_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/Bomb Guy_Fall_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\Bomb Guy_Fall_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/Bomb Guy_Ground_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\Bomb Guy_Ground_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/Bomb Guy_Ground_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\Bomb Guy_Ground_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/Bomb Guy_Ground_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\Bomb Guy_Ground_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/Idle 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\Idle 01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/Idle 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\Idle 02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/Idle 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\Idle 03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/Idle 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\Idle 04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/Idle 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\Idle 05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/01-Idle/Idle 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\01-Idle\\Idle 01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/01-Idle/Idle 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\01-Idle\\Idle 02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/01-Idle/Idle 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\01-Idle\\Idle 03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/01-Idle/Idle 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\01-Idle\\Idle 04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/01-Idle/Idle 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\01-Idle\\Idle 05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/02-Run/Run 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\02-Run\\Run 01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/02-Run/Run 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\02-Run\\Run 02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/02-Run/Run 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\02-Run\\Run 03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/02-Run/Run 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\02-Run\\Run 04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/02-Run/Run 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\02-Run\\Run 05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/02-Run/Run 06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\02-Run\\Run 06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/03-Jump/Jump 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\03-Jump\\Jump 01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/03-Jump/Jump 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\03-Jump\\Jump 02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player1/03-Jump/Jump 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player1\\03-Jump\\Jump 03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Additional Water.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Additional Water.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sky.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sky.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Box1_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Box1_16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Back Palm Tree Regular 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Back Palm Tree Regular 03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hills_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hills_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hills_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hills_1.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Cena0",
+      "name": "Cena0",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.22333332519531252,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 79,
+          "layer": "",
+          "locked": false,
+          "name": "Terrain1",
+          "persistentUuid": "5f13af92-8c8b-472d-b575-7c970ae27892",
+          "width": 4457,
+          "x": -992,
+          "y": 580,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 54,
+          "layer": "",
+          "locked": false,
+          "name": "PlayerHitbox",
+          "persistentUuid": "ebce4ac1-cde4-4d41-9a1a-3ede073b06ba",
+          "width": 46,
+          "x": 1,
+          "y": 482.76922607421875,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 55.38461685180664,
+          "layer": "",
+          "locked": false,
+          "name": "Player1",
+          "persistentUuid": "e2f946cb-e0b6-41cd-aeb2-4e1e45da415b",
+          "width": 48,
+          "x": 0,
+          "y": 482.6153869628906,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 448,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "c2e54807-5643-4fbe-91be-782dd50dd495",
+          "width": 551,
+          "x": -559,
+          "y": 132,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "4cddcb34-6fb8-46df-94cc-4970f8b80677",
+          "width": 64,
+          "x": 266,
+          "y": 547,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "1c492110-e44e-4ae2-b05b-765d721a3e39",
+          "width": 192,
+          "x": 557,
+          "y": 547,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "d3d1c161-4353-4978-b810-52a8a6973f15",
+          "width": 128,
+          "x": 716,
+          "y": 515,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "72d4f110-b132-4005-8898-1aac380a1079",
+          "width": 97,
+          "x": 814,
+          "y": 482,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "20e826fc-6924-4997-baf3-15da134ca9d5",
+          "width": 64,
+          "x": -8,
+          "y": 548,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "f0af82af-8d89-42ca-981f-d7286e8f3185",
+          "width": 97,
+          "x": 881,
+          "y": 449,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "562b0337-3d26-4d0b-af8a-7a3f683f58b1",
+          "width": 32,
+          "x": 813,
+          "y": 547,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 65,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "7e8d825c-da6e-4b3a-8e23-375328ec441b",
+          "width": 32,
+          "x": 879.4634399414062,
+          "y": 515,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 98,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "41490672-5a04-4fc4-8e15-aadeaeaab1d2",
+          "width": 32,
+          "x": 945,
+          "y": 482,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 124,
+          "layer": "",
+          "locked": false,
+          "name": "Palmeira",
+          "persistentUuid": "8e80f7e8-87ed-4eda-bd79-6f72b5701d22",
+          "width": 124,
+          "x": 978,
+          "y": 457,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 124,
+          "layer": "",
+          "locked": false,
+          "name": "Palmeira",
+          "persistentUuid": "227507f0-8278-46a7-9984-e97bce7a3c27",
+          "width": 124,
+          "x": 1077,
+          "y": 457,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 124,
+          "layer": "",
+          "locked": false,
+          "name": "Palmeira",
+          "persistentUuid": "ae66be22-b59e-49ea-98c9-79a1af1e0d7e",
+          "width": 124,
+          "x": 1176,
+          "y": 457,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 124,
+          "layer": "",
+          "locked": false,
+          "name": "Palmeira",
+          "persistentUuid": "f4e2d4dc-f9cd-4034-9b41-a270efe3a84d",
+          "width": 124,
+          "x": 1274,
+          "y": 457,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 124,
+          "layer": "",
+          "locked": false,
+          "name": "Palmeira",
+          "persistentUuid": "a22d215f-058c-4625-953c-e7016fe3c59d",
+          "width": 124,
+          "x": 1373,
+          "y": 456,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "a5f414a2-7020-41d0-9bcb-6b2d2f6b3ac9",
+          "width": 192,
+          "x": 1656,
+          "y": 547,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "89af143e-eab1-4b39-bd6b-8eb6837426a2",
+          "width": 160,
+          "x": 1496,
+          "y": 484,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "86dce1aa-27ac-4931-ad90-b570de7d40f0",
+          "width": 32,
+          "x": 1529,
+          "y": 516,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "8f638c8d-3f85-4e39-8598-837fe226b618",
+          "width": 97,
+          "x": 1628,
+          "y": 514,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1138,
+          "layer": "Background",
+          "locked": false,
+          "name": "Background",
+          "persistentUuid": "a7cbfc12-2bd4-40e8-9c35-88abbdcf3f3c",
+          "width": 4290,
+          "x": -826,
+          "y": -477,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1130,
+          "layer": "Foreground",
+          "locked": false,
+          "name": "Foreground",
+          "persistentUuid": "64eaad5b-0c52-4235-98f8-479afbaf668b",
+          "width": 3891,
+          "x": -1007,
+          "y": -471,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1234,
+          "layer": "Background",
+          "locked": false,
+          "name": "Sky1",
+          "persistentUuid": "6355c272-e9d9-4130-8c63-904406150142",
+          "width": 4499,
+          "x": -1024,
+          "y": -572,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 448,
+          "layer": "",
+          "locked": false,
+          "name": "Box1",
+          "persistentUuid": "cc873fcb-c378-40e1-92c6-6de15d88f484",
+          "width": 551,
+          "x": 2894,
+          "y": 133,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "PlayerHitbox",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Terrain1",
+          "tags": "",
+          "texture": "Terrain1 (32x32).png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Player1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\01-Idle\\Idle 01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\01-Idle\\Idle 02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\01-Idle\\Idle 03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\01-Idle\\Idle 04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\01-Idle\\Idle 05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\02-Run\\Run 01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\02-Run\\Run 02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\02-Run\\Run 03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\02-Run\\Run 04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\02-Run\\Run 05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\02-Run\\Run 06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\03-Jump\\Jump 01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\03-Jump\\Jump 02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Player1\\03-Jump\\Jump 03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Background1",
+          "tags": "",
+          "texture": "Additional Water.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Sky1",
+          "tags": "",
+          "texture": "Sky.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Box1",
+          "tags": "",
+          "texture": "Box1_16.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Palmeira",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Back Palm Tree Regular 03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Background",
+          "tags": "",
+          "texture": "Hills_2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Foreground",
+          "tags": "",
+          "texture": "Hills_1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Player"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Efeito de Camera",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "### Alterar a posição Y da camera (camada:\"\"):definir como PlayHitbox.Y()",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(),PlayerHitbox.X(),0.2)",
+                "\"\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "PlayerHitbox.X()*0.25",
+                "\"Background\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "PlayerHitbox.X()*0.4",
+                "\"Foreground\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 13594544,
+          "ambientLightColorG": 6042736,
+          "ambientLightColorR": 12202752,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Hud",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 13594544,
+          "ambientLightColorG": 6042736,
+          "ambientLightColorR": 12202752,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 13594544,
+          "ambientLightColorG": 6042736,
+          "ambientLightColorR": 12202752,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Foreground",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 32,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [
+    {
+      "associatedLayout": "Cena0",
+      "lastChangeTimeStamp": 0,
+      "name": "Player",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "PlayerHitbox"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player1",
+                "=",
+                "PlayerHitbox.X()",
+                "=",
+                "PlayerHitbox.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "PlayerHitbox",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "PlayerHitbox",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player1",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "PlayerHitbox",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player1",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "PlayerHitbox",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player1",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player1",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Player1",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
