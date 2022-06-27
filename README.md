@@ -13,6 +13,13 @@ Desenvolver um jogo completo utilizando a engine GDevelop 5.
 <a href="https://"> <strong> Acessar </strong></a>
 </h4>
 
+<h4> 
+ Link para o jogo de referência: 
+<a href="https://pixelfrog-assets.itch.io/treasure-hunters"> <strong> Acessar </strong></a>
+</h4>
+
+
+
 <h2 dir="auto"> ⚠️ Especificação e requisitos </h2>
 <ul dir="auto">
 <li> Requisito I -  Utilizar somente game assets(músicas, efeitos sonoros, imagens, backgrounds, sprites, interfaces e entre outros) com as licenças gratuitas ou que tenham permissão do autor para publicar para fins comerciais ou para uso pessoal, tais como: Creative Commons, GPL, Public Domain ou qualquer outra licença que tenha o mesmo objetivo. Também poderão ser desenvolvidos assets pelo próprio grupo. <a href=" https:// "> Acessar </a></li>
