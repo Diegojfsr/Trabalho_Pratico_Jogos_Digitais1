@@ -59,7 +59,6 @@ saber. E caso você conheça alguém que se identidique com o conteúdo, não de
   Projeto desenvolvido utilizando os conhecimentos adquiridos durante meu III periodo de formação do Curso de <strong> GTI </strong>
   na disciplina Jogos Digitais do <a href="https://www.ifsudestemg.edu.br/muriae"> <strong> IF Sudeste MG </strong></a>
  </em> 
- 
  ❤️💚💚
 </p>
 
