@@ -22,10 +22,10 @@ Desenvolver um jogo completo utilizando a engine GDevelop 5.
 
 <h2 dir="auto"> ⚠️ Especificação e requisitos </h2>
 <ul dir="auto">
-<li> Requisito I -  Utilizar somente game assets(músicas, efeitos sonoros, imagens, backgrounds, sprites, interfaces e entre outros) com as licenças gratuitas ou que tenham permissão do autor para publicar para fins comerciais ou para uso pessoal, tais como: Creative Commons, GPL, Public Domain ou qualquer outra licença que tenha o mesmo objetivo. Também poderão ser desenvolvidos assets pelo próprio grupo. <a href=" https:// "> Acessar </a></li>
-<li> Requisito II -  O game não deverá possuir conteúdos ofensivos. <a href=" https:// "> Acessar </a></li>
-<li> Requisito III -  Deverá haver no mínimo 6 Fases, sendo que a primeira fase deverá ser utilizada como um tutorial que ensina o jogador a jogar o jogo; menu principal para iniciar o jogo, tela de game over e créditos. <a href=" https:// "> Acessar </a></li>
-<li> Requisito IV - Deverá ser desenvolvido e entregue o Game Design Document detalhado e formatado. <a href=" https:// "> Acessar </a></li>
+<li> Requisito I -  Utilizar somente game assets(músicas, efeitos sonoros, imagens, backgrounds, sprites, interfaces e entre outros) com as licenças gratuitas ou que tenham permissão do autor para publicar para fins comerciais ou para uso pessoal, tais como: Creative Commons, GPL, Public Domain ou qualquer outra licença que tenha o mesmo objetivo. Também poderão ser desenvolvidos assets pelo próprio grupo. </li>
+<li> Requisito II -  O game não deverá possuir conteúdos ofensivos. </li>
+<li> Requisito III -  Deverá haver no mínimo 6 Fases, sendo que a primeira fase deverá ser utilizada como um tutorial que ensina o jogador a jogar o jogo; menu principal para iniciar o jogo, tela de game over e créditos. </li>
+<li> Requisito IV - Deverá ser desenvolvido e entregue o Game Design Document detalhado e formatado. </li>
 </ul>
 
 
